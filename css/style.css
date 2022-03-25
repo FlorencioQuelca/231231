@@ -10,6 +10,10 @@ body{
     background-color: black;
 }
 
+.top{
+
+}
+
 #main{
     display: flex;
     justify-content: space-evenly;
@@ -30,11 +34,13 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 8px;
     background-color: white;
     
 }
 img{
     max-width: 500px;
+    border-radius: 25px;
 }
 
 .top{
@@ -49,6 +55,17 @@ img{
     align-items:flex-start;
     gap: 8px;
 
+}
+
+h1, h2{
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h2{
+    color: white;
+    background-color: black;
+    padding: 8px 16px;
 }
 
 #tribute-info{
