@@ -1,16 +1,74 @@
-#main{
+
+
+html, body{
+    height: 100%;
+}
+body{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    background-color: black;
+}
+
+#main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+#main-2{
+    background-color: gainsboro;
+    max-width: 1000px;
+    padding: 16px;
+    border-radius: 25px;
+    min-width: 900px;
 }
 
 #img-div{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    background-color: white;
     
 }
+img{
+    max-width: 500px;
+}
 
-.img{
-    max-width:100%;
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 28px 14px;
+}
+
+.main-inside{
+    display: flex;
+    align-items:flex-start;
+    gap: 8px;
+
+}
+
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    justify-content: end;
+    background-color: rgb(224, 214, 201);
+}
+
+footer{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+footer div{
+    border: 1px solid white;
+    padding: 8px 16px;
+    border-radius: 25px;
 }
